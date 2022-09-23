@@ -1,0 +1,86 @@
+.footer-bg {
+  background-color: #252525;
+  padding: 5rem 0;
+
+  h3 {
+    color: #fff;
+    font-size: 24px;
+    padding-bottom: 30px;
+    @media screen and (max-width: 1024px) {
+      padding-bottom: 15px;
+      padding-top: 35px;
+    }
+  }
+  img {
+    padding-bottom: 20px;
+    width: 200px;
+  }
+  .number {
+    font-size: 21px;
+    font-weight: bold;
+    color: #e5553f;
+    transition: 0.2s all;
+    text-decoration: none;
+    &:hover {
+      color: #fff;
+    }
+  }
+  ul {
+    li {
+      a {
+        color: #919394;
+        text-decoration: none;
+        transition: 0.2s all;
+        &:hover {
+          color: #e5553f;
+        }
+      }
+    }
+  }
+  .post-content {
+    padding-bottom: 15px;
+    h3 {
+      margin: 0;
+      padding: 0;
+      a {
+        font-size: 18px;
+        text-decoration: none;
+        transition: all 0.3s;
+        color: #fff;
+        &:hover {
+          color: #e5553f;
+        }
+      }
+    }
+    .post-info {
+      a {
+        text-decoration: none;
+        transition: all 0.3s ease-in-out;
+        &:hover {
+          > span {
+            color: #fff;
+          }
+        }
+        span {
+          color: #e5553f;
+          transition: all 0.3s ease-in-out;
+          font-style: italic;
+        }
+      }
+    }
+  }
+  .icons {
+    span {
+      font-size: 40px;
+      transition: all 0.3s ease-in-out;
+      a {
+        font-size: 40px;
+        color: rgb(255, 255, 255);
+        transition: all 0.3s ease-in-out;
+        &:hover {
+          color: #e5553f;
+        }
+      }
+    }
+  }
+}

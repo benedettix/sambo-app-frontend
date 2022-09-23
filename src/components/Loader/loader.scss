@@ -1,0 +1,22 @@
+.loader {
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  z-index: 99999;
+  body {
+    overflow: hidden;
+  }
+
+  .loader-container {
+    background-color: rgba(155, 155, 155, 0.541);
+    height: 100%;
+    width: 100%;
+    svg {
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      transform: translate(-50%, -50%);
+    }
+  }
+}

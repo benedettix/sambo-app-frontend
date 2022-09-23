@@ -1,0 +1,10 @@
+.add_blog-wrapper {
+  margin: 30px auto;
+  .add-blog-item {
+    display: flex;
+    flex-direction: column;
+    input {
+      margin-bottom: 15px;
+    }
+  }
+}

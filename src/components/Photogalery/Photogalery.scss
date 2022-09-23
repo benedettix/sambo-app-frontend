@@ -1,0 +1,17 @@
+.photogalery-bg {
+  text-align: center;
+  padding: 7rem 0;
+  @media screen and (max-width: 1024px) {
+    padding: 60px 0;
+  }
+  h6 {
+    padding-bottom: 60px;
+    color: black;
+  }
+  a {
+    margin-top: 80px;
+    @media screen and (max-width: 1024px) {
+      margin-top: 40px;
+    }
+  }
+}

@@ -1,0 +1,48 @@
+.result-bg {
+  text-align: center;
+  padding-top: 5.6em;
+  padding-bottom: 8.25em;
+  background-image: url(https://samurai.axiomthemes.com/wp-content/uploads/2016/11/black_bg.jpg?id=298);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  @media screen and (max-width: 1024px) {
+    padding: 5em 0;
+  }
+  h6 {
+    color: #e5553f;
+    padding-bottom: 50px;
+  }
+  p {
+    max-width: 650px;
+    margin: 0 auto;
+  }
+  .result-score {
+    color: rgba(255, 255, 255, 0.1);
+    background: -webkit-linear-gradient(
+      rgba(255, 255, 255, 0.15),
+      rgba(255, 255, 255, 0)
+    );
+    -webkit-background-clip: text;
+
+    font-size: 9.3rem;
+    font-weight: bold;
+    font-family: "Droid Serif", sans-serif;
+    position: relative;
+    text-align: center;
+
+    .result-header {
+      span {
+        color: #fff;
+        font-size: 25px;
+
+        max-width: 165px;
+
+        position: absolute;
+        top: 90%;
+        left: 50%;
+        transform: translate(-50%, -90%);
+      }
+    }
+  }
+}

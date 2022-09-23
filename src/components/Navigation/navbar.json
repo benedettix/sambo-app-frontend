@@ -1,0 +1,35 @@
+{
+  "navbar_headers": [
+    {
+      "head": "NASLOVNA",
+      "url": "/"
+    },
+
+    {
+      "head": "O NAMA",
+      "url": "/onama"
+    },
+
+    {
+      "head": "Galerija",
+      "url": "/galerija"
+    },
+
+    {
+      "head": "DOJMOVI",
+      "url": "/dojmovi"
+    },
+    {
+      "head": "PROGRAMI",
+      "url": "/programi"
+    },
+    {
+      "head": "BLOGOVI",
+      "url": "/blogovi"
+    },
+    {
+      "head": "KONTAKTI",
+      "url": "/kontakti"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+.classes-bg {
+  padding-top: 7em;
+  padding-bottom: 7.5em;
+  background-image: url("../../../public/assets/bg2-2.jpg");
+
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: left;
+  .classes_wrapper {
+    h3 {
+      font-size: 50px;
+      color: #fff;
+      font-weight: bold;
+    }
+    h6 {
+      color: #fff;
+      padding: 35px 0;
+    }
+    a {
+      display: inline-block;
+      cursor: pointer;
+    }
+  }
+}

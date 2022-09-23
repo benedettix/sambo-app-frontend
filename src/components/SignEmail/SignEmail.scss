@@ -1,0 +1,26 @@
+.email-bg {
+  padding-top: 3.4em;
+  padding-bottom: 3.3em;
+  background-image: url(https://samurai.axiomthemes.com/wp-content/uploads/2016/11/Layer-12.jpg?id=581);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  h3 {
+    color: #fff;
+    font-family: "Droid Serif", sans-serif;
+    font-size: 40px;
+  }
+  input {
+    padding: 15px;
+    border: none;
+    outline: none;
+    width: 100%;
+  }
+  a {
+    background-color: #252525;
+    color: #ffffff;
+    @media screen and (max-width: 1024px) {
+      margin-top: 30px;
+    }
+  }
+}

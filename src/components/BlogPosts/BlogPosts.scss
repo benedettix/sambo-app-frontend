@@ -1,0 +1,38 @@
+.blog-items {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding-top: 2rem;
+  input {
+    padding: 15px;
+    color: #2e2e2e;
+    border: 1px solid #ddd;
+    font-family: "Droid Serif", sans-serif;
+    margin-top: 1rem;
+  }
+}
+.blog_post-wrapper {
+  width: 650px;
+  @media screen and (max-width: 1024px) {
+    width: 100%;
+  }
+  .blog_post_img-wrapper {
+    a {
+      width: 100%;
+      height: 100%;
+    }
+  }
+  padding: 6rem 0;
+  h3 {
+    padding: 1.5rem 0;
+  }
+  span {
+    color: #e5553f;
+  }
+  p {
+    padding: 1.5rem 0;
+  }
+  img {
+    width: 100%;
+  }
+}
